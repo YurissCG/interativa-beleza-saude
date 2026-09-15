@@ -93,6 +93,8 @@
   background: var(--c-black);
   display: flex; flex-direction: column;
   padding: var(--sp-5) var(--container-pad) var(--sp-7);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   transform: translateY(-100%);
   transition: transform var(--dur-med) var(--ease);
 }
