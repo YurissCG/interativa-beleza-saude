@@ -3,3 +3,5 @@
 /DESIGN.md
 node_modules/
 *.log
+.vercel
+.env*
