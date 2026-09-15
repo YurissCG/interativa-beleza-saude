@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "Interativa Beleza & Saúde",
+  "image": "assets/img/gallery/facial-limpeza-pele.webp",
+  "logo": "assets/img/logo.png",
+  "telephone": "+5531993381540",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Grão Mogol, 1255",
+    "addressLocality": "Belo Horizonte",
+    "addressRegion": "MG",
+    "addressCountry": "BR"
+  },
+  "areaServed": "Belo Horizonte",
+  "sameAs": [
+    "https://www.instagram.com/interativaestetica/",
+    "https://www.facebook.com/profile.php?id=61574500406880"
+  ],
+  "priceRange": "$$"
+}

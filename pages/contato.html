@@ -1,0 +1,95 @@
+<!--META
+title: Contato — Interativa Beleza & Saúde | Rua Grão Mogol, Sion, BH
+description: Fale com a Interativa Beleza & Saúde. Endereço na Rua Grão Mogol, 1255, Sion, Belo Horizonte. Agende pelo WhatsApp ou Instagram.
+slug: contato.html
+active: contato
+schema_file: schema-localbusiness.json
+-->
+<section class="page-hero">
+  <div class="page-hero-media">
+    <video autoplay muted loop playsinline preload="auto" poster="assets/img/posters/localizacao-entrada.webp">
+      <source src="assets/video/localizacao-entrada.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="page-hero-scrim"></div>
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Início</a> / Contato</div>
+    <h1>Vamos marcar seu horário?</h1>
+    <p class="lead" style="color:var(--text-on-dark-muted); max-width: 60ch;">Fale com a gente pelo WhatsApp, Instagram ou preencha o formulário abaixo.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div class="reveal">
+      <p class="eyebrow">Informações</p>
+      <h2>Onde estamos e como falar com a gente</h2>
+
+      <div class="info-card">
+        <svg class="icon-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-4.5-9.5-9C.7 8 2 4 6 4c2 0 3.5 1 4.5 2.5C11.5 5 13 4 15 4c4 0 5.3 4 3.5 8-2.5 4.5-9.5 9-9.5 9"/></svg>
+        <div><h4>Endereço</h4><p>Rua Grão Mogol, 1255 — Sion, Belo Horizonte/MG</p></div>
+      </div>
+      <div class="info-card">
+        <svg class="icon-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17l-1.4 3.4L9 19a8 8 0 1 0-3.4-3.1"/></svg>
+        <div><h4>WhatsApp</h4><p><a data-wa-msg="Olá! Vim pelo site e gostaria de agendar um horário." href="#">(31) 99338-1540</a></p></div>
+      </div>
+      <div class="info-card">
+        <svg class="icon-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        <div><h4>Instagram</h4><p><a href="https://www.instagram.com/interativaestetica/" target="_blank" rel="noopener">@interativaestetica</a></p></div>
+      </div>
+      <div class="info-card">
+        <svg class="icon-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        <div><h4>Horários</h4><p>Atendimento com horário marcado. Fale com a gente para consultar a disponibilidade da semana.</p></div>
+      </div>
+
+      <div class="social-row" style="margin-top:32px;">
+        <a class="social-btn" style="border-color: var(--border-strong); color: var(--c-black);" href="https://www.instagram.com/interativaestetica/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+        <a class="social-btn" style="border-color: var(--border-strong); color: var(--c-black);" href="https://www.facebook.com/profile.php?id=61574500406880" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
+        <a class="social-btn" style="border-color: var(--border-strong); color: var(--c-black);" href="https://www.threads.com/@estudioyohanna" target="_blank" rel="noopener" aria-label="Threads"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3c4 0 7 2.5 7 7 0 3-1.6 4.7-3.6 5.4M12 3c-4 0-7 2.9-7 7.5S8.5 21 12.3 21c2 0 3.5-.6 4.5-1.6.9-.9 1.3-2 1.1-3.3-.2-1.6-1.5-2.6-3.4-2.7-1.7-.1-3 .6-3.4 1.8"/></svg></a>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <form id="contact-form" novalidate>
+        <div class="field">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required placeholder="Seu nome" />
+        </div>
+        <div class="field">
+          <label for="servico">Serviço de interesse</label>
+          <select id="servico" name="servico">
+            <option value="">Selecione (opcional)</option>
+            <option>Estética Facial</option>
+            <option>Estética Corporal</option>
+            <option>Pilates</option>
+            <option>Treino Funcional</option>
+            <option>Salão de Beleza</option>
+            <option>Ainda não sei</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Conte um pouco sobre o que você procura"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Enviar pelo WhatsApp</button>
+        <p style="font-size: var(--text-xs); color: var(--text-muted); margin-top:12px;">Ao enviar, abriremos uma conversa no WhatsApp com sua mensagem pronta.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Localização</p>
+      <h2>Rua Grão Mogol, 1255 — Sion</h2>
+    </div>
+    <div class="map-frame">
+      <iframe
+        src="https://www.google.com/maps?q=Rua+Gr%C3%A3o+Mogol+1255+Sion+Belo+Horizonte+MG&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Mapa de localização da Interativa"></iframe>
+    </div>
+  </div>
+</section>
